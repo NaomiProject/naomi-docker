@@ -22,6 +22,7 @@ the right instructions to install and enable it on your device.
 
 ### Run Naomi docker 
 
+#### Classic method
 To start a container based on the image available on DockerHub :
 
 ```shell
@@ -30,6 +31,14 @@ docker run -it -d --name naomi-docker
     -v /host/path/to/config:/config/
     --env XDG_RUNTIME_DIR=/tmp 
     tuxseb/naomi-test:latest 
+```
+
+#### Docker compose 
+
+You can also use the provided docker compose file, `docker-compose.yml`.  
+
+```shell
+docker compose up
 ```
 
 ### Audio Setup 
