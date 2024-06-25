@@ -4,7 +4,7 @@ ARG TARGETARCH
 ARG TARGETVARIANT
 ENV JASPER_CONFIG=/config
 
-COPY ../naomi-docker/apt_req.txt .
+COPY apt_req.txt .
 RUN apt update -y  \
     && apt upgrade -y  \
     && awk '! /^ *(#|$)/' apt_req.txt | xargs -r -- apt install -y --no-install-recommends \

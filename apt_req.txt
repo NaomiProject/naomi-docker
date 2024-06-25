@@ -9,6 +9,7 @@ g++
 gcc
 libopenblas-dev
 libffi-dev
+unzip
 
 # Naomi Core requirements
 alsa-utils

@@ -83,7 +83,9 @@ here's a tutorial [to set it up on your machine](https://www.baeldung.com/ops/do
 
 Once done, use: 
 
-```docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 --push --tag <Dockerhub repository> .```
+```shell
+docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 --push --tag <Dockerhub repository> .
+```
 
 Take note that you can change the platform argument following your needs.
 Depending on your CPU, it may take a while since Buildx needs to emulate the target architectures locally. # naomi-docker
