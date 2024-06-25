@@ -1,0 +1,56 @@
+# Docker core requirements
+sudo
+pipewire
+pipewire-alsa
+git
+make
+automake
+g++
+gcc
+libopenblas-dev
+libffi-dev
+unzip
+
+# Naomi Core requirements
+alsa-utils
+dirmngr
+gettext
+gfortran
+gnupg
+jq
+libatlas3-base
+libncurses5-dev
+libssl-dev
+util-linux
+
+# Plugins
+## AudioEngine
+### PyAudio
+libasound2-dev
+portaudio19-dev
+
+
+## STT
+### PocketSphinx is default for wakeword spotting
+pocketsphinx
+sphinxtrain
+
+### KenLM for building ARPA models
+build-essential
+cmake
+libboost-system-dev
+libboost-thread-dev
+libboost-program-options-dev
+libboost-test-dev
+libeigen3-dev
+zlib1g-dev
+libbz2-dev
+liblzma-dev
+
+# TTS
+## flite
+flite
+
+# SpeechHandler
+## MPDControl
+mpd

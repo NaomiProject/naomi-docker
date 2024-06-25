@@ -1,0 +1,55 @@
+# Naomi core dependencies
+APScheduler
+argparse
+mock==3.0.5
+pytz
+PyYAML
+requests
+blessings
+pyaudio
+pyalsaaudio
+cryptography
+
+#other modules
+python-slugify
+mad
+
+# Pocketsphinx STT engine
+pocketsphinx
+
+# HN module
+semantic
+
+# Birthday/Notifications modules
+facebook-sdk
+
+# Weather/News modules
+feedparser
+
+# Gmail module
+python-dateutil
+
+# MPDControl module
+python-mpd2
+
+# google stt
+google-api-core
+google-auth
+google-cloud-speech
+googleapis-common-protos
+grpcio
+
+# google tts
+google-cloud-texttospeech
+
+# webrtcvad
+webrtcvad
+
+# NaomiSTTTrain
+cython
+pandas
+scikit-learn==1.4.2
+jiwer
+
+# Development
+flake8
